@@ -1,0 +1,322 @@
+/* استایل‌های اصلی (بدون تغییر از نسخه شما) */
+#login-page {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+    padding: 2rem;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-title {
+    color:#333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-btn {
+    padding: 0.8rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background: #3d8b40;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(76,175,80,0.3);
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.forgot-password {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #3d8b40;
+}
+
+.auth-links {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.auth-links a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+/* استایل‌های داشبورد (سازگار با نسخه شما) */
+.dashboard-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:#fff;
+    text-decoration: none;
+    border-radius:5px;
+    transition: background-color 0.3s ease;
+    margin: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-logout {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.btn-logout:hover {
+    background-color: #d32f2f;
+}
+/* بوکینگ */
+/* استایل صفحه رزرو */
+.booking-page {
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.booking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.page-title {
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.advisors-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.advisor-card {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-left: 4px solid #4caf50;
+}
+
+.advisor-card button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s;
+}
+
+.advisor-card button:hover {
+    background: #3d8b40;
+}
+/* هیستوری */
+.auth-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .blue-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .blue-btn:hover {
+    background-color: #0056b3;
+  }
+  /* استایل صفحه تاریخچه */
+.history-page {
+    background: #3d8b40;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+  
+  .history-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .history-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .reservations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* کارت رزرو */
+  .reservation-card {
+    background: #f9f9f9;
+    border-left: 6px solid #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .reservation-card h3 {
+    margin: 0 0 5px;
+    color: #007bff;
+  }
+  
+  .reservation-card p {
+    margin: 2px 0;
+    color: #444;
+  }
+  
+  /* دکمه لغو */
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  /* === Confirm Page Styles === */
+
+body {
+    background-color: #e0f5e9; /* سبز کمرنگ مشابه بقیه صفحات */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2e7d32; /* سبز تیره‌تر برای هماهنگی با تم */
+    margin-bottom: 20px;
+}
+
+#confirmation-box {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    min-width: 300px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+#confirm-btn {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#confirm-btn:hover {
+    background-color: #1b5e20;
+}
+
+  
